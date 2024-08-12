@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display: grid;
+            grid-gap: 10px;
+           grid-template-areas: "header, header, header"
+                                "content, context, context"
+                                "foot, foot, foot";
+        }
+        .box1{
+            background-color: black;
+            grid-area: "header";
+        }
+        .box2{
+            background-color: rgb(213, 12, 12);
+            grid-area: "content";
+        }
+        .box1{
+            background-color: rgb(41, 195, 30);
+            grid-area: "context";
+        }
+        .box1{
+            background-color: rgb(28, 45, 197);
+            grid-area: "foot";
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box1"></div>
+        <div class="box2"></div>
+        <div class="box3"></div>
+        <div class="box4"></div>
+    </div>
+</body>
+</html>
