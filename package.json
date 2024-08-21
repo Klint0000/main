@@ -2,8 +2,7 @@
   "name": "calculator",
   "version": "1.0.0",
   "description": "created by klint",
-  "main": "cal.js",
-  "source": "cal.html",
+  "source": "src/index..html",
   "scripts": {
     "dev": "parcel",
     "build": "parcel build",
